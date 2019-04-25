@@ -13,7 +13,7 @@ html.with-featherlight {
   margin-right: 16px;
 }
 
-.featherlight iframe {
+.featherlight iframe, .featherlight img {
   height: 90vh;
   width: 95vw !important; // due to inline width property
   max-width: 1920px;
@@ -58,7 +58,7 @@ html.with-featherlight {
   }
 }
 
-.featherlight-iframe .featherlight-content {
+.featherlight-iframe .featherlight-content, .featherlight-img .featherlight-content {
   @media only screen and (max-width: 1024px) {
     padding: 0;
     border-bottom: 0;
