@@ -24,11 +24,12 @@ $.fn.dframes = function() {
     $(this)
       .css("max-width", "100%")
       .before(
-        "<button data-frame='#"+
+        "<div class='featherFrame'><button data-frame='#"+
           fId+
           //"' class='btn btn-default fExpand'><i class='fa far-expand d-icon d-icon-expand'></i></button>"
           "' class='btn btn-default fExpand' title='Expand'><img src='http://pixologic.com/Scripts_new/zbc/expand.png' alt='Expand' /></button>"
       );
+      .after("</div>");
   });
 
   this.on("mouseenter", ".fExpand", function(e) {
