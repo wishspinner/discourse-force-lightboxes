@@ -22,7 +22,7 @@ $.fn.dframes = function() {
     $(this).attr("id", rando);
     var fId = $(this).attr("id");
     $(this)
-      .css("width", "100%")
+      .css("max-width", "100%")
       .before(
         "<button data-frame='#"+
           fId+
