@@ -14,10 +14,15 @@ html.with-featherlight {
 }
 
 .featherlight iframe, .featherlight img {
+  height:auto;
+  width:auto;
+  max-width:95vw;
+  /*
   height: 90vh;
   width: 95vw !important; // due to inline width property
   max-width: 1920px;
   max-height: 1080px;
+  */
 }
 
 .featherlight .featherlight-content {
