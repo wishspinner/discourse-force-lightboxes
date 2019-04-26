@@ -1,5 +1,5 @@
-# Discourse iframe lightbox theme component
+# Discourse lightbox theme component
 
-A theme component that allows you to open iframes in fullscreen lightboxes.
+A theme component that forces images into fullscreen lightboxes.
 
 More information: https://meta.discourse.org/t/89853
