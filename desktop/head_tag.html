@@ -29,15 +29,16 @@ $.fn.dframes = function() {
           "' class='btn btn-default fExpand' title='Expand'><img src='http://pixologic.com/Scripts_new/zbc/expand.png' alt='Expand' /></button>"
       );
       $(this).after("</div>");
+      
+    $('.d-lazyload').lightGallery({
+        mode: 'lg-fade',
+        data-src: srcc
+    });      
   }); 
 
-  this.on("mouseenter", ".fExpand", function(e) {
-    dframe.lightGallery();
-    //$(this).featherlight({
-      //targetAttr: "data-frame",
-      //root: "html"
-    //});
-  });
+  //this.on("mouseenter", ".fExpand", function(e) {
+  //  dframe.lightGallery();
+  //});
 };
 api.decorateCooked($elem => $elem.dframes());
 </script>
